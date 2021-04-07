@@ -99,3 +99,4 @@ export { default as CaretRight } from './Icons/CaretRight';
 export { default as CaretDown } from './Icons/CaretDown';
 export { default as CaretUp } from './Icons/CaretUp';
 export { default as CaretLeft } from './Icons/CaretLeft';
+export { IconlyProvider, useIconlyTheme } from './lib/context';
