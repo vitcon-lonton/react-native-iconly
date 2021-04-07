@@ -8,7 +8,7 @@
 **react-native-iconly** is a fork of react-iconly that is very half-assedly put together and rushed to completion with a using some very manual scripts. It uses react-native-svg as a substitute for the original html svg backend. It also has types.
 
 ## READ THIS
-This was very quickly put together. Some things may not work. Use at your own discretion. I may update this on the future.
+This was very quickly put together. Some things may not work. Use at your own discretion. I may update this in the future.
 
 ## Based on Iconly Essential Icons [Iconly v2](https://ui8.net/piqodesign/products/iconly-essential-icons)
 
