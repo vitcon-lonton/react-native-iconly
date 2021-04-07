@@ -33,7 +33,6 @@
     "build": "tsc --jsx react-native",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "eslint \"src/**/*\"",
-    "publish": "npm version patch && npm publish"
   },
   "peerDependencies": {
     "react": "^16.8.6 || ^17"
