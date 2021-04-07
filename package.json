@@ -1,6 +1,6 @@
 {
   "name": "react-native-iconly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native component for Iconly icons",
   "author": "otaviomad",
   "license": "MIT",
@@ -31,14 +31,17 @@
   ],
   "scripts": {
     "build": "tsc --jsx react-native",
-    "prepare": "run-s build",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "eslint \"src/**/*\""
+    "lint": "eslint \"src/**/*\"",
+    "publish": "npm version patch && npm publish"
   },
   "peerDependencies": {
     "react": "^16.8.6 || ^17"
   },
   "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
     "babel-eslint": "^10.0.3",
@@ -67,9 +70,6 @@
     "dist"
   ],
   "dependencies": {
-    "@types/node": "^14.14.37",
-    "@types/react": "^17.0.3",
-    "@types/react-dom": "^17.0.3",
     "react-native-svg": "^12.1.0"
   }
 }

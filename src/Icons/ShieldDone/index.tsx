@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const ShieldDone = ({ color, secondaryColor, strokeWidth, opacity, set }: Props) => {
+const ShieldDone = ({
+  color, secondaryColor, strokeWidth, opacity, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(3.5 2)">
       <Path

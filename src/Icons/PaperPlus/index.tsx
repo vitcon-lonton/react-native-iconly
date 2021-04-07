@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const PaperPlus = ({ color, opacity, secondaryColor, strokeWidth, set }: Props) => {
+const PaperPlus = ({
+  color, opacity, secondaryColor, strokeWidth, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(3.5 2)">
       <Path

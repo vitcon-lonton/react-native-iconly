@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const Bookmark = ({ color, opacity, secondaryColor, strokeWidth, set }: Props) => {
+const Bookmark = ({
+  color, opacity, secondaryColor, strokeWidth, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(4 2)">
       <Path

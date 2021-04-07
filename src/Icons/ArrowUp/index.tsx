@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const ArrowUp = ({ color, secondaryColor, strokeWidth, opacity, set }: Props) => {
+const ArrowUp = ({
+  color, secondaryColor, strokeWidth, opacity, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(6 3)">
       <Path

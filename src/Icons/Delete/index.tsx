@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const Delete = ({ color, secondaryColor, strokeWidth, opacity, set }: Props) => {
+const Delete = ({
+  color, secondaryColor, strokeWidth, opacity, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(3 2)">
       <Path

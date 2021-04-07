@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const Calling = ({ color, secondaryColor, strokeWidth, opacity, set }: Props) => {
+const Calling = ({
+  color, secondaryColor, strokeWidth, opacity, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(2 2)">
       <Path

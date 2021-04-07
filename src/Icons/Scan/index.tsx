@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const Scan = ({ color, secondaryColor, strokeWidth, opacity, set }: Props) => {
+const Scan = ({
+  color, secondaryColor, strokeWidth, opacity, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(1 3)">
       <Path

@@ -1,4 +1,6 @@
-import { Circle, Ellipse, G, Path } from 'react-native-svg';
+import {
+  Circle, Ellipse, G, Path,
+} from 'react-native-svg';
 import * as React from 'react';
 import withIcon from '../../lib/withIcon';
 
@@ -10,7 +12,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const Search = ({ color, opacity, secondaryColor, strokeWidth, set }: Props) => {
+const Search = ({
+  color, opacity, secondaryColor, strokeWidth, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(2 2)">
       <Path

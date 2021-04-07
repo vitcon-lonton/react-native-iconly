@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const CloseSquare = ({ color, secondaryColor, strokeWidth, opacity, set }: Props) => {
+const CloseSquare = ({
+  color, secondaryColor, strokeWidth, opacity, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(2 1.999)">
       <Path

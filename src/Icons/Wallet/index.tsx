@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const Wallet = ({ color, opacity, secondaryColor, strokeWidth, set }: Props) => {
+const Wallet = ({
+  color, opacity, secondaryColor, strokeWidth, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(2 3)">
       <Path

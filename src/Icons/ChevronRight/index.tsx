@@ -10,7 +10,9 @@ type Props = {
   strokeWidth?: string | number;
 };
 
-const ChevronRight = ({ color, secondaryColor, strokeWidth, opacity, set }: Props) => {
+const ChevronRight = ({
+  color, secondaryColor, strokeWidth, opacity, set,
+}: Props) => {
   const Bold = () => (
     <G transform="translate(7 6)">
       <Path
