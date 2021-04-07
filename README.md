@@ -5,7 +5,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/react-iconly.svg?style=flat-round)](https://www.npmjs.com/package/react-iconly)
 
 
-**react-native-iconly** is a fork of react-iconly that is very half-assedly put together and rushed to completion with a using some very manual scripts. It uses react-native-svg as a substitute for the original html svg backend. It also has types.
+**react-native-iconly** is a fork of react-iconly that is very half-assedly put together and rushed to completion using some very manual scripts. It uses react-native-svg as a substitute for the original html svg backend. It also uses typescript instead of javascript.
 
 ## READ THIS
 This was very quickly put together. Some things may not work. Use at your own discretion. I may update this in the future.
