@@ -6,7 +6,7 @@
     "allowSyntheticDefaultImports": true,
     "jsx": "react-native",
     "lib": ["dom", "esnext"],
-    "outDir": "build",
+    "outDir": "dist",
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true,

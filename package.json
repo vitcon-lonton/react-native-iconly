@@ -1,12 +1,12 @@
 {
   "name": "react-native-iconly",
   "version": "1.0.0",
-  "description": "React component for Iconly icons",
-  "author": "jrgarciadev",
+  "description": "React native component for Iconly icons",
+  "author": "otaviomad",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrgarciadev/react-iconly.git"
+    "url": "git+https://github.com/otaviomad/react-native-iconly"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -16,11 +16,12 @@
     "node": ">=10"
   },
   "bugs": {
-    "url": "https://github.com/jrgarciadev/react-iconly/issues"
+    "url": "https://github.com/otaviomad/react-native-iconly/issues"
   },
   "homepage": "https://react-iconly.jrgarciadev.com",
   "keywords": [
     "react",
+    "react-native",
     "react-icons",
     "icons",
     "svg",
