@@ -1,11 +1,9 @@
 import React, { memo, useContext } from 'react';
-import Svg from 'react-native-svg';
-import {
-  getSize, getThemeProp, getStroke, getOpacity,
-} from './utils';
+import Svg, { SvgProps } from 'react-native-svg';
+import { getSize, getThemeProp, getStroke, getOpacity } from './utils';
 import { IconlyContext, Theme } from './context';
 
-export interface Props {
+export interface Props extends SvgProps {
   label?: string;
   filled?: boolean;
   primaryColor?: string;
@@ -16,15 +14,14 @@ export interface Props {
 }
 
 function withIcon(Component: React.ElementType): React.MemoExoticComponent<(props: Props) => JSX.Element> {
-  const IconWrapper = ({
-    size, label, primaryColor, secondaryColor, filled, set, stroke, ...restProps
-  }: Props) => {
+  const IconWrapper = ({ size, label, primaryColor, secondaryColor, filled, set, stroke, ...restProps }: Props) => {
     const theme = useContext(IconlyContext);
     const iconSize = getSize(size) || getSize(getThemeProp('size', theme) as Theme['size']) || '24px';
 
     const iconPrimaryColor = primaryColor || getThemeProp('primaryColor', theme) || 'currentColor';
 
-    const iconSecondaryColor = secondaryColor || getThemeProp('secondaryColor', theme) || iconPrimaryColor || 'currentColor';
+    const iconSecondaryColor =
+      secondaryColor || getThemeProp('secondaryColor', theme) || iconPrimaryColor || 'currentColor';
 
     return (
       <Svg width={iconSize} height={iconSize} viewBox="0 0 24 24" aria-label={label || undefined} {...restProps}>
